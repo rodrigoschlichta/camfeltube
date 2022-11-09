@@ -7,12 +7,8 @@ import { StyledTimeline } from "../src/components/Timeline";
 
 
 const HomePage = () => {
-    // const estiloDaHomePage = { 
-    //     //backgroundColor: "red" 
-    // };
-    //console.log(config.playlists);
+
     const [valorDoFiltro, setvalorDoFiltro] = React.useState("");
-    //const valorDoFiltro = "perfeita";
     return (
         <>
             <CSSReset />
@@ -26,14 +22,6 @@ const HomePage = () => {
     );
 };
 export default HomePage;
-
-// const Menu = () => {
-//     return (
-//         <div>
-//             Menu
-//         </div>
-//     );
-// };
 
 const StyledHeader = styled.div`
     /* .banner-alura-tube{
@@ -55,13 +43,6 @@ const StyledHeader = styled.div`
         gap: 16px;
     }
 `;
-
-// const StyledBannerAluraTube = styled.img`
-//     width: 100%;
-//     height: 230px;
-//     object-fit:cover;
-//     object-position: center;
-// `;
 
 const StyledBannerAluraTube = styled.div`
     height: 230px;
